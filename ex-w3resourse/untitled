@@ -1,0 +1,11 @@
+var student = { 
+name : "Vishal rathor", 
+insti: "kgp", 
+place : "delhi" };
+
+console.log(length.student);
+
+
+
+
+output

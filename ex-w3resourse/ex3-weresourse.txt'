@@ -1,0 +1,10 @@
+var student = { 
+name : "Vishal rathor", 
+insti: "kgp", 
+place : "delhi" };
+
+console.log(Object.keys(student));
+
+
+output
+(3) ["name", "insti", "place"]

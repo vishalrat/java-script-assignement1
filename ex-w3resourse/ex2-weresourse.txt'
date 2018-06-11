@@ -1,0 +1,15 @@
+var student = { 
+name : "Vishal rathor", 
+insti: "kgp", 
+place : "delhi" };
+
+console.log(student);
+delete student.insti;
+
+console.log(student);
+
+output(before adding)
+{name: "Vishal rathor", insti: "kgp", place: "delhi"}
+
+after adding delete
+{name: "Vishal rathor", place: "delhi"}

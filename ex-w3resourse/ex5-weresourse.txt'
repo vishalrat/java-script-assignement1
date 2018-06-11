@@ -1,0 +1,17 @@
+String.prototype.sub_String = function() 
+{
+  var subset = [];
+  for (var m = 0; m < this.length; m++) 
+  {
+    for (var n = m+1; n<this.length+1; n++) 
+    {
+      subset.push(this.substring(m,n));
+    }
+  }
+  return subset;
+};
+var x = prompt("Please enter your name", "HarryPotter");
+console.log(x.sub_String());
+
+output
+(21) ["v", "vi", "vis", "vish", "visha", "vishal", "i", "is", "ish", "isha", "ishal", "s", "sh", "sha", "shal", "h", "ha", "hal", "a", "al", "l"]

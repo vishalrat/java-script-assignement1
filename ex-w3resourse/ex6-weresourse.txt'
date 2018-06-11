@@ -1,0 +1,23 @@
+Array.prototype.bubbleSort_algo = function() 
+{
+var is_sorted = false;
+  for (var i = 0; i < this.length - 1; i++) 
+ {
+    
+    for (var n = 0; n < this.length - 1 - i; n++) 
+    {
+      if (this[n] > this[n+1]){
+        var x = this[n+1];
+        this[n+1] = this[n];
+        this[n] = x;
+        is_sorted = false;
+      }
+    }
+  }
+  return this;
+};
+
+console.log([1,4,3,-8,-9,-5,3,5,6,2].bubbleSort_algo());
+
+output
+(10) [-9, -8, -5, 1, 2, 3, 3, 4, 5, 6]

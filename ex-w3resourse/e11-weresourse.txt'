@@ -1,0 +1,17 @@
+var student = { 
+name : "Vishal rathor", 
+insti: "kgp", 
+place : "delhi" };
+
+
+function all_properties(obj) 
+{
+ return Object.getOwnPropertyNames(obj);
+}
+
+console.log(all_properties(student));
+
+output
+
+(3) ["name", "insti", "place"]
+
