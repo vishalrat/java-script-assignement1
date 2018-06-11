@@ -1,0 +1,7 @@
+var Vishal = new Object();
+vishal.myProp = "Vishal rathor";
+vishal.myMethod = function() {
+ 
+
+}
+

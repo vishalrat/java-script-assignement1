@@ -1,0 +1,16 @@
+function celsiusToFahrenheit(celsius) {
+  var celsiusInF = (celsius*9)/5 + 32;
+  console.log(celsius + '°C is ' + celsiusInF + '°F');
+}
+
+function fahrenheitToCelsius(fahrenheit) {
+  var fahrenheitInC = ((fahrenheit - 32)*5)/9;
+  console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
+}
+
+celsiusToFahrenheit(10);
+fahrenheitToCelsius(20);
+
+output
+10°C is 50°F
+ 20°F is -6.666666666666667°C

@@ -1,0 +1,18 @@
+function stackroute(name, place, institute, batch) {
+    var info = 'name ' + name + ' from ' + place + ' is passed out from ' +
+   institute  + ' with ' + batch ;
+    console.log(info);
+}
+
+stackroute('vishal', 'delhi', 'kgp', 2018);
+stackroute('sandeep', 'dhanbaad', 'vit', 2017);
+stackroute('vinay', 'barely', 'iiit', 2017);
+stackroute('koushlendra', 'bharatpur', 'nitk', 2018);
+
+
+output
+
+name vishal from delhi is passed out from kgp with 2018
+name sandeep from dhanbaad is passed out from vit with 2017
+name vinay from barely is passed out from iiit with 2017
+name koushlendra from bharatpur is passed out from nitk with 2018

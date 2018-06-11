@@ -1,0 +1,8 @@
+var Vishal = {
+  myProp: "my prop value",
+  myMethod: function() {
+    
+  }
+}
+
+

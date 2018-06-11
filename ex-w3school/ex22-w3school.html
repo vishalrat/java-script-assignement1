@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var food = ["Pizza", "Beans", "Tacos", "Fish", "Chicken"];
+var i;
+
+for (i = 0; i < food.length; i++) {
+    text += "I love " + food[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+<!--output
+-----------
+I love Pizza
+I love Beans
+I love Tacos
+I love Fish
+I love Chicken
+
+ -->
+
+

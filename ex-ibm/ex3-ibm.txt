@@ -1,0 +1,10 @@
+function vishal() {
+  this.myProp = "my name id vishal";
+}
+vishal.prototype.myMethod = function() {
+  
+}
+ 
+var newObject = new myObject();
+
+

@@ -1,0 +1,23 @@
+var stname = {
+    'what': 'names',
+    'total': 4,
+    'info': ['vishal', 'sandeep', 'vinay','koushlendra']
+};
+
+console.log(stname.what);
+console.log('Servings: ' + stname.total);
+console.log('Info:');
+for (var i = 0; i < stname.info.length; i++) {
+    console.log(stname.info[i]);
+}
+
+
+output
+
+names
+Servings: 4
+Info:
+vishal
+sandeep
+vinay
+koushlendra
